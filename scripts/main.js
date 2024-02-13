@@ -1,3 +1,10 @@
-import { Aprendiz, NivelEducativo } from './aprendiz.js';
-export var ap = new Aprendiz("Jeimmy", "Camacho Medina", "avatar.png", 29, NivelEducativo.UNIVERSITARIO);
-console.log(ap);
+console.log("Hola mundo");
+var miTexto = "Hola mundo de nuevo";
+console.log(miTexto);
+var tagUno = "<div class=\"ejemplo\">";
+var tagDos = "<div class='ejemplo'>";
+console.log(tagUno);
+console.log(tagDos);
+console.log("Esta es una línea\nEsta es otra línea");
+console.log("Esta es la primera l\u00EDnea\nEsta es la segunda l\u00EDnea");
+console.log("El valor de mi variable es ".concat(miTexto));

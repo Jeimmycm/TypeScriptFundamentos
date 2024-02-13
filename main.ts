@@ -1,6 +1,16 @@
-import {Aprendiz,NivelEducativo} from './aprendiz.js';
+console.log("Hola mundo");
 
-export const ap = new Aprendiz("Jeimmy","Camacho Medina", "avatar.png",29, NivelEducativo.UNIVERSITARIO);
+let miTexto: string = "Hola mundo de nuevo";
+console.log(miTexto)
 
-console.log(ap);
+let tagUno: string= "<div class=\"ejemplo\">";
+let tagDos: string= "<div class='ejemplo'>";
+
+console.log(tagUno);
+console.log(tagDos);
+
+console.log("Esta es una línea\nEsta es otra línea");
+console.log(`Esta es la primera línea
+Esta es la segunda línea`);
+console.log(`El valor de mi variable es ${miTexto}`);
 
